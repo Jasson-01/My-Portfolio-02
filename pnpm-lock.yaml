@@ -11,6 +11,9 @@ dependencies:
   astro:
     specifier: ^5.2.5
     version: 5.2.5(typescript@5.7.3)
+  swiper:
+    specifier: ^11.2.3
+    version: 11.2.3
   tailwindcss:
     specifier: ^4.0.6
     version: 4.0.6
@@ -2776,6 +2779,11 @@ packages:
   /strip-bom@3.0.0:
     resolution: {integrity: sha512-vavAMRXOgBVNF6nyEEmL3DBK19iRpDcoIwW+swQ+CbGiu7lju6t+JklA1MHweoWtadgt4ISVUsXLyDq34ddcwA==}
     engines: {node: '>=4'}
+    dev: false
+
+  /swiper@11.2.3:
+    resolution: {integrity: sha512-24m5tqHCd1Wmp9+86aKDoIGMsZGEjIL++3nuB1UjhAhIlvwj4k0Jikxu9PGQ/VswLpoje6JtMDWo12uu4aS2FA==}
+    engines: {node: '>= 4.7.0'}
     dev: false
 
   /tailwindcss@4.0.6:
