@@ -35,13 +35,13 @@ import MySwiper from "./MySwiper";
                 class="home__blob-img"
                 x="12"
                 y="18"
-                xlink:href="../../public/img-perfil/perfil3.jpg"
+                xlink:href="../../public/img-perfil/perfil3SVG.svg"
               />
             </g>
           </svg>
         </div>
         <div class="home__data">
-          <h1 class="home__title">Hi, I'am Jasson</h1>
+          <h1 class="home__title">Hi, I'm Jasson</h1>
           <h3 class="home__subtitle">Fronted developer</h3>
           <p class="home__description">
             Hight level Lorem, ipsum dolor sit amet consectetur adipisicing
@@ -289,10 +289,6 @@ import MySwiper from "./MySwiper";
       -->
       </div>
     </div>
-
-    <script>
-      import "../scripts/general.js";
-    </script>
   </section>
 
   <!--==================== PORTFOLIO ====================-->
@@ -300,11 +296,15 @@ import MySwiper from "./MySwiper";
     <h2 class="section__title">Portfolio</h2>
     <span class="section__subtitle">Most recent work</span>
 
-    <div class="portfolio__container container swiper-container">
+    <div class="portfolio__container container swiper">
       <div class="swiper-wrapper">
         <!--==================== PORTFOLIO 1 ====================-->
         <div class="portfolio__content grid swiper-slide">
-          <img src="../../public/img-portfolio/portfolio1.jpg" alt="" class="portfolio__img" />
+          <img
+            src="../../public/img-portfolio/portfolio1.jpg"
+            alt=""
+            class="portfolio__img"
+          />
 
           <div class="portfolio__data">
             <h3 class="portfolio__title">Moder Website</h3>
@@ -325,7 +325,11 @@ import MySwiper from "./MySwiper";
 
         <!--==================== PORTFOLIO 2 ====================-->
         <div class="portfolio__content grid swiper-slide">
-          <img src="../../public/img-portfolio/portfolio2.jpg" alt="" class="portfolio__img" />
+          <img
+            src="../../public/img-portfolio/portfolio2.jpg"
+            alt=""
+            class="portfolio__img"
+          />
 
           <div class="portfolio__data">
             <h3 class="portfolio__title">Brand Design</h3>
@@ -346,7 +350,11 @@ import MySwiper from "./MySwiper";
 
         <!--==================== PORTFOLIO 3 ====================-->
         <div class="portfolio__content grid swiper-slide">
-          <img src="../../public/img-portfolio/portfolio3.jpg" alt="" class="portfolio__img" />
+          <img
+            src="../../public/img-portfolio/portfolio3.jpg"
+            alt=""
+            class="portfolio__img"
+          />
 
           <div class="portfolio__data">
             <h3 class="portfolio__title">Online Store</h3>
@@ -379,9 +387,8 @@ import MySwiper from "./MySwiper";
       <div class="swiper-pagination"></div>
     </div>
   </section>
-
-
 </main>
 
-
-<script src="../scripts/general.js"></script>
+<script>
+  import "../scripts/general.js";
+</script>

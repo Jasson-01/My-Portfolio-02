@@ -29,7 +29,14 @@ function linkAction() {
 navLink.forEach((n) => n.addEventListener("click", linkAction));
 
 /*==================== PORTFOLIO SWIPER  ====================*/
+import Swiper from "swiper";
+import { Navigation, Pagination } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+
 let swiperPortfolio = new Swiper(".portfolio__container", {
+  modules: [Navigation, Pagination],
   cssMode: true,
   loop: true,
 
